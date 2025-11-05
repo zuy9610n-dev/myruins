@@ -146,6 +146,7 @@
 		"weight": 2500
     "uniques": ["Free Social Policy", "Only available <before turn number [13]>"],
   },
+	
 //Faith
   { 
      "name": "discover few holy symbols", 
