@@ -7,7 +7,7 @@
         ],
         "startBias": [
             "Coast",
-            "Avoid [Tundra]"
+            "Desert"
         ],
         "preferredVictoryType": "Domination",
         "personality": "Isabella",
