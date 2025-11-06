@@ -85,4 +85,77 @@
             }
         ]
     },
+	{
+        "name": "Aesthetics",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 20,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": ["[+15]% [Culture] <while the empire is happy>"],
+		"policies": [
+            {
+                "name": "Cultural Centers",
+                "uniques": [
+			"[+50]% Production when constructing [Monument] buildings [in all cities]",
+			"[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+			"[+50]% Production when constructing [Opera House] buildings [in all cities]",
+			"[+50]% Production when constructing [Museum] buildings [in all cities]",
+			"[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+			"[-15]% Culture cost of adopting new Policies"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Monumentality",
+                "uniques": [
+                    "[+33]% [Culture] [in all cities with a world wonder]",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Cultural Exchange",
+                "uniques": [
+		    "[+66]% [Culture] [in all cities with a world wonder]",	
+                    "When declaring friendship, both parties gain a [20]% boost to great person generation"
+                ],
+                "requires": ["Cultural Centers"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Tourism Destination",
+                "uniques": [
+                    "[+2 Gold] from all [Culture] buildings"
+                ],
+                "requires": ["Cultural Centers", "Monumentality"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Artistic Genius",
+                "uniques": [
+                    "Free [Great Artist] appears",
+		    "[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"	
+                ],
+                "requires": ["Cultural Exchange"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Aesthetics Complete",
+                "uniques": [
+		    "[+50]% Golden Age length",	
+		    "[+3 Production, +3 Food] [in all cities with a world wonder]",	
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+	  ]
+	}
 ]
