@@ -1,0 +1,88 @@
+[
+ {
+        "name": "Piety",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 3,
+            "Cultural": 4,
+            "Diplomatic": 3,
+            "Domination": 3,
+            "Scientific": 0
+        },
+        "uniques": [
+		"[+100]% Production when constructing [Shrine] buildings [in all cities]",
+		"[+100]% Production when constructing [Temple] buildings [in all cities]",
+		"[+100]% Production when constructing [Grand Temple] wonders [in all cities]",
+    "[+1 Culture, +1 Faith] [in capital]",
+    "Comment [Unlocks [Great Mosque of Djenne]]"
+        ],
+        "policies": [
+            {
+                "name": "Organized Religion",
+                "uniques": [
+                    "[+1 Culture, +1 Faith] from every [Shrine]",
+                    "[+1 Culture, +2 Faith] from every [Temple]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Mandate Of Heaven",
+                "uniques": [
+                    "[Faith] cost of purchasing items in cities [-25]%",
+                    "[+1 Happiness] from every [Temple]",
+				          	"Comment [+1 [Culture] from all buildings purchased with [Faith]]",
+					          "[+1 Culture] from every [Cathedral] <hidden from users>",
+					          "[+1 Culture] from every [Mosque] <hidden from users>",
+					          "[+1 Culture] from every [Pagoda] <hidden from users>",
+				          	"[+1 Culture] from every [Stupa] <hidden from users>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Theocracy",
+                "uniques": [
+                    "[+25]% [Gold] from every [Temple]",
+                    "[+3 Gold] from every [Holy site]",
+                    "[+33]% [Gold] from every [Grand Temple]"
+                ],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Free Religion",
+                "uniques": [
+                    "Gain a free [Pantheon] belief", "(if you founded a religion)",
+                    "[+25]% [Science] from every [Grand Temple]",
+                    "[+1 Science] from every [Temple]"
+                ],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Reformation",
+                "uniques": [
+                    "Gain a free [Enhancer] belief", "(if you founded a religion)",
+		                "[-20]% Culture cost of adopting new Policies",
+					          "[-15]% Culture cost of natural border growth [in all cities]",
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "Gain a free [Enhancer] belief <after founding a religion>"
+                ],
+                "requires": ["Free Religion"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                		"[+4 Culture] from every [Holy site]",
+	      	          "Free [Great Prophet] appears"
+                    "[-15]% Culture cost of adopting new Policies"
+                ]
+            }
+        ]
+    },
+]
