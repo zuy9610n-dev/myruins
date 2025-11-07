@@ -4,7 +4,8 @@
 
   "name": "Mountain",
 		"type": "Land",
-    "production": 4,
+    "production": 2,
+	"food":1
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],
