@@ -288,6 +288,7 @@
                 "name": "Free Religion",
                 "uniques": [
                     "Gain a free [Pantheon] belief", "(if you founded a religion)",
+				    "May choose [1] additional [Pantheon] beliefs when [founding] a religion",
                     "[+25]% [Science] from every [Grand Temple]",
                     "[+1 Science] from every [Temple]"
                 ],
@@ -301,7 +302,7 @@
                     "Gain a free [Enhancer] belief", "(if you founded a religion)",
 		                "[-20]% Culture cost of adopting new Policies",
 					          "[-15]% Culture cost of natural border growth [in all cities]",
-                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "May choose [2] additional [Enhancer] beliefs when [founding] a religion",
                     "Gain a free [Enhancer] belief <after founding a religion>"
                 ],
                 "requires": ["Free Religion"],
@@ -391,7 +392,303 @@
             }
 	  ]
 	},
-	    {
+	{
+        "name": "Patronage",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[-25]% City-State Influence degradation",
+			"Comment [Unlocks [Forbidden Palace]]",
+            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+        ],
+        "policies": [
+            {
+                "name": "Philantropy",
+                "uniques": [
+                    "Gifts of Gold to City-States generate [25]% more Influence"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Aesthetics",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [20]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Scholasticism",
+                "uniques": [
+                    "Allied City-States provide [Science] equal to [30]% of what they produce for themselves"
+                ],
+                "requires": [
+                    "Philantropy"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "uniques": [
+                    "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
+                ],
+                "requires": [
+                    "Scholasticism"
+                ],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Educated Elite",
+                "requires": [
+                    "Scholasticism",
+                    "Aesthetics"
+                ],
+                "uniques": [
+                    "Allied City-States will occasionally gift Great People"
+                ],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": [
+                    "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Exploration",
+        "uniques": [
+            "[+1] Movement <for [Water] units>",
+            "[+1] Sight <for [Water] units>",
+            "Comment [Unlocks [The Louvre]]"
+        ],
+        "era": "Medieval era",
+        "policies": [
+            {
+                "name": "Naval Tradition",
+                "uniques": [
+                    "[+1 Happiness] from every [Lighthouse]",
+                    "[+1 Happiness] from every [Harbor]",
+                    "[+1 Happiness] from every [Seaport]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Maritime Infrastructure",
+                "uniques": [
+                    "[+3 Production] [in all coastal cities]",
+                    "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
+                    "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+                    "[+50]% Production when constructing [Seaport] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Colonialism",
+                "uniques": [
+                    "[2] population [in this city] <upon founding a city>",
+                    "Free [Worker] appears <upon founding a city>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Navigation School",
+                "uniques": [
+					"[Great Admiral] is earned [+50]% faster",
+                    "[+15]% Strength <for [Water] units>",
+                    "[+1] Movement <for [{Military} {Water}] units>"
+                ],
+                "requires": ["Maritime Infrastructure","Naval Tradition"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Treasure Fleets",
+                "uniques": [
+                    "[+2] Happiness from each type of luxury resource"
+                ],
+                "requires": ["Navigation School"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Exploration Complete",
+                "uniques": [
+                    "Free [Great Admiral] appears",
+                    "[+2 Happiness, +2 Gold, +2 Production] [in all cities] <on foreign continents>",
+                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Commerce",
+        "uniques": [
+            "[+2 Gold] [in all cities]",
+            "Comment [Unlocks [Big Ben]]"
+        ],
+        "era": "Medieval era",
+        "policies": [
+            {
+                "name": "Entrepreneurship",
+                "uniques": [
+                    "[Great Merchant] is earned [33]% faster",
+                    "[+50]% Production when constructing [Market] buildings [in all cities]",
+                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Mercenary Army",
+                "uniques": [
+                    "[Military] units gain the [Mercenary] promotion"
+                ],
+                "requires": ["Entrepreneurship"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Silk Road",
+                "uniques": [
+                    "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
+                    "[-33]% maintenance on road & railroads",
+                    "[+33]% [Gold] from Trade Routes"
+                ],
+                "requires": ["Entrepreneurship"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-20]%",
+                    "[+1 Happiness, +2 Gold] from every [Market]",
+                    "[+1 Happiness, +2 Gold] from every [Bank]",
+                    "[+1 Happiness, +2 Gold] from every [Stock Exchange]"
+                ],
+                "requires": ["Entrepreneurship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Protectionism",
+                "uniques": [
+                    "[+1 Food] from every [Trading post]",
+                    "[+1 Science, +1 Culture, +4 Gold] from every [Customs house]",
+                    "[+2 Gold, +1 Culture] from every [Luxury resource]"
+                ],
+                "requires": ["Mercantilism"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[2] free [Great Merchant] units appear",
+                    "[+12 Gold, +6 Happiness] from every [National Treasury]",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+	{
+        "name": "Rationalism",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 7,
+            "Cultural": 4,
+            "Diplomatic": 8,
+            "Domination": 4,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+3 Science] [in capital]",
+			"Comment [Unlocks [Porcelain Tower]]"
+        ],
+        "policies": [
+            {
+                "name": "Secularism",
+                "uniques": [
+		    "[Great Scientist] is earned [20]% faster"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Humanism",
+                "uniques": [
+                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]",
+                    "[-50]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Free Thought",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+		    "[+2 Science] from every [Academy]",
+                    "[+17]% [Science] from every [University]"
+                ],
+                "requires": [
+                    "Secularism"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Sovereignty",
+                "uniques": [
+                    "[+1 Science] from every specialist [in all cities]"
+                ],
+                "requires": [
+                    "Humanism"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Scientific Revolution",
+                "uniques": [
+                    "Science gained from research agreements [+50]%",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "requires": [
+                    "Free Thought"
+                ],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "Free [Great Scientist] appears",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+	{
         "name": "Freedom",
         "era": "Industrial era",
         "priorities": {
