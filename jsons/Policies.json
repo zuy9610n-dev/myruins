@@ -243,8 +243,8 @@
             "Scientific": 0
         },
         "uniques": [
-		"[+150]% Production when constructing [Shrine] buildings [in all cities]",
-		"[+150]% Production when constructing [Temple] buildings [in all cities]",
+		"[+100]% Production when constructing [Shrine] buildings [in all cities]",
+		"[+110]% Production when constructing [Temple] buildings [in all cities]",
 		"[+300]% Production when constructing [Grand Temple] wonders [in all cities]",
     "[+3 Culture, +1 Faith] [in capital]",
     "Comment [Unlocks [Great Mosque of Djenne]]"
@@ -290,6 +290,7 @@
                     "Gain a free [Pantheon] belief", "(if you founded a religion)",
 				    "May choose [1] additional [Pantheon] beliefs when [founding] a religion",
                     "[+25]% [Science] from every [Grand Temple]",
+					"May choose [1] additional belief(s) of any type when [founding] a religion",
                     "[+1 Science] from every [Temple]"
                 ],
                 "requires": ["Organized Religion"],
