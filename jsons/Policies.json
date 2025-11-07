@@ -1,5 +1,238 @@
 [
- {
+	{
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 6,
+            "Cultural": 6,
+            "Diplomatic": 5,
+            "Domination": 2,
+            "Scientific": 9
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]",
+			"Comment [Unlocks [Hanging Gardens]]",
+            "[+50]% weight to this choice for AI decisions"
+        ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
+                    "[+50]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+					"[+1 Production] from every specialist [in all cities]"
+                ],
+                "requires": [
+                    "Legalism"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                ],
+                "requires": [
+                    "Legalism"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Aqueduct] in your first [4] cities for free"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liberty",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 4,
+            "Cultural": 6,
+            "Diplomatic": 5,
+            "Domination": 9,
+            "Scientific": 2
+        },
+        "uniques": [
+            "[+1 Culture] [in all cities]",
+			"Comment [Unlocks [The Pyramids]]"
+        ],
+        "policies": [
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+1 Production] per [4] population [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "Can build [all] improvements at a [+50]% rate"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Expansionism",
+                "uniques": [
+                    "Free [Worker] appears",
+                    "Free [Settler] appears"
+                ],
+                "requires": [
+                    "Republic"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [50]% less than normal",
+                    "[-33]% unhappiness from the number of cities"                    
+                ],
+                "requires": [
+                    "Citizenship"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Trade Networks",
+                "uniques": [
+                    "[+1 Production, +1 Happiness] [in all cities connected to capital]",
+                    "[-10]% Unhappiness from [Population] [in all cities connected to capital]",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "requires": [
+                    "Citizenship"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": [
+                    "Free Great Person"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Honor",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"Comment [Unlocks [Statue of Zeus]]",
+            "Notified of new Barbarian encampments"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "Free [Great General] appears"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Military Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Military] units>"
+                ],
+                "requires": [
+                    "Warrior Code"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                ],
+                "requires": [
+                    "Discipline"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[+1 Happiness] from every [Walls]",
+                    "[+1 Happiness] from every [Castle]",
+                    "[+1 Happiness] from every [Arsenal]",
+                    "[+1 Happiness] from every [Military Base]"
+                ],
+                "requires": [
+                    "Military Caste"
+                ],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Piety",
         "era": "Ancient era",
         "priorities": {
@@ -10,10 +243,10 @@
             "Scientific": 0
         },
         "uniques": [
-		"[+100]% Production when constructing [Shrine] buildings [in all cities]",
-		"[+100]% Production when constructing [Temple] buildings [in all cities]",
-		"[+100]% Production when constructing [Grand Temple] wonders [in all cities]",
-    "[+1 Culture, +1 Faith] [in capital]",
+		"[+150]% Production when constructing [Shrine] buildings [in all cities]",
+		"[+150]% Production when constructing [Temple] buildings [in all cities]",
+		"[+300]% Production when constructing [Grand Temple] wonders [in all cities]",
+    "[+3 Culture, +1 Faith] [in capital]",
     "Comment [Unlocks [Great Mosque of Djenne]]"
         ],
         "policies": [
