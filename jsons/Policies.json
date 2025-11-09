@@ -151,7 +151,17 @@
                 "name": "Liberty Complete",
                 "uniques": [
                     "Free Great Person",
-					"[+1 Culture] [in all cities]"
+					"[+1 Culture] [in all cities]",
+					"[+33]% Production when constructing [National Epic] wonders [in all cities]",
+                    "[+33]% Production when constructing [National College] wonders [in all cities]",
+                    "[+33]% Production when constructing [Circus Maximus] wonders [in all cities]",
+                    "[+33]% Production when constructing [Heroic Epic] wonders [in all cities]",
+                    "[+33]% Production when constructing [East India Company] wonders [in all cities]",
+                    "[+33]% Production when constructing [Grand Temple] wonders [in all cities]",
+                    "[+33]% Production when constructing [Ironworks] wonders [in all cities]",
+                    "[+33]% Production when constructing [Oxford University] wonders [in all cities]",
+                    "[+33]% Production when constructing [Hermitage] wonders [in all cities]",
+                    "[+33]% Production when constructing [National Intelligence Agency] wonders [in all cities]"
 					
                 ]
             }
@@ -371,8 +381,9 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-		    "[+66]% [Culture] [in all cities with a world wonder]",	
-                    "When declaring friendship, both parties gain a [20]% boost to great person generation"
+					"[+66]% [Culture] [in all cities with a world wonder]",	
+                    "When declaring friendship, both parties gain a [20]% boost to great person generation",
+					"[+1 Culture] from every [Great Improvement]",
                 ],
                 "requires": ["Cultural Centers"],
                 "row": 2,
@@ -391,7 +402,12 @@
                 "name": "Artistic Genius",
                 "uniques": [
                     "Free [Great Artist] appears",
-		    "[+20]% [Culture] from every [Museum]","[+25]% [Culture] from every [Opera House]","[+30]% [Culture] from every [Broadcast Tower]"	
+					"[+20]% [Culture] from every [Museum]","[+25]% [Culture] from every [Opera House]","[+30]% [Culture] from every [Broadcast Tower]",
+					"[+1 Science] from every [Museum]",
+                    "[+1 Science] from every [Amphitheater]",
+                    "[+1 Science] from every [Opera House]",
+                    "[+1 Science] from every [Broadcast Tower]",
+					"[+2 Science] from every [Landmark]"
                 ],
                 "requires": ["Cultural Exchange"],
                 "row": 3,
@@ -478,7 +494,11 @@
                 "name": "Patronage Complete",
                 "uniques": [
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
+					"[+50]% [Culture] from City-States",
+                    "[+50]% [Faith] from City-States",
+                    "[+50]% [Food] from City-States",
+                    "[+50]% [Happiness] from City-States"
                 ]
             }
         ]
@@ -495,9 +515,9 @@
             {
                 "name": "Naval Tradition",
                 "uniques": [
-                    "[+1 Happiness] from every [Lighthouse]",
-                    "[+1 Happiness] from every [Harbor]",
-                    "[+1 Happiness] from every [Seaport]"
+                    "[+1 Happiness, +1 Culture] from every [Lighthouse]",
+                    "[+1 Happiness, +1 Culture] from every [Harbor]",
+                    "[+1 Happiness, +1 Culture]] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 1
@@ -546,7 +566,7 @@
                 "name": "Exploration Complete",
                 "uniques": [
                     "Free [Great Admiral] appears",
-                    "[+2 Happiness, +2 Gold, +2 Production] [in all cities] <on foreign continents>",
+                    "[+3 Happiness, +3 Gold, +3 Production] [in all cities] <on foreign continents>",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -555,7 +575,7 @@
     {
         "name": "Commerce",
         "uniques": [
-            "[+2 Gold] [in all cities]",
+            "[+3 Gold] [in all cities]",
             "Comment [Unlocks [Big Ben]]"
         ],
         "era": "Medieval era",
@@ -565,8 +585,8 @@
                 "uniques": [
                     "[Great Merchant] is earned [33]% faster",
                     "[+50]% Production when constructing [Market] buildings [in all cities]",
-                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]"
+                    "[+60]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+70]% Production when constructing [Stock Exchange] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -596,8 +616,8 @@
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-20]%",
                     "[+1 Happiness, +2 Gold] from every [Market]",
-                    "[+1 Happiness, +2 Gold] from every [Bank]",
-                    "[+1 Happiness, +2 Gold] from every [Stock Exchange]"
+                    "[+1 Happiness, +3 Gold] from every [Bank]",
+                    "[+1 Happiness, +4 Gold] from every [Stock Exchange]"
                 ],
                 "requires": ["Entrepreneurship"],
                 "row": 2,
@@ -607,8 +627,8 @@
                 "name": "Protectionism",
                 "uniques": [
                     "[+1 Food] from every [Trading post]",
-                    "[+1 Science, +1 Culture, +4 Gold] from every [Customs house]",
-                    "[+2 Gold, +1 Culture] from every [Luxury resource]"
+                    "[+1 Science, +1 Culture, +5 Gold] from every [Customs house]",
+                    "[+3 Gold, +1 Culture] from every [Luxury resource]"
                 ],
                 "requires": ["Mercantilism"],
                 "row": 3,
@@ -642,7 +662,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-		    "[Great Scientist] is earned [20]% faster"
+		    "[Great Scientist] is earned [30]% faster"
                 ],
                 "row": 1,
                 "column": 2
