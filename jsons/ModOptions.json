@@ -11,6 +11,6 @@
     "riverCountMultiplier": 0.04142,
     "maxLakeSize": 10,
     "unitUpgradeCost":{"base":20,"perProduction":0.5,"eraMultiplier":0.5,"exponent":1,"roundTo":5}
-    //"ancientRuinCountMultiplier": 0.07
+    "ancientRuinCountMultiplier": 0.06
   }
 }
