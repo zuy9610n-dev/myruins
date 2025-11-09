@@ -18,5 +18,25 @@
             "Considered [Undesirable] when determining start locations"]
 
   },
+  {
+
+    "name": "Lakes",
+    "type": "NaturalWonder",
+    "food": 2,
+    "gold": 1,
+    "RGB": [0, 171,169],
+    "occursOn": ["Lakes"],
+    "turnsInto": "Lakes"
+    "unbuildable": false,
+    "impassable": false,
+    "weight": 10,
+    "uniques": ["Fresh Water",
+		        "Occurs in groups of [25] to [25] tiles",
+		        "Considered [Food] when determining start locations",
+		        "Considered [Desirable] when determining start locations"
+	           ]
+
+  }
+	
 
 ]
