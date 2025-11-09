@@ -6,7 +6,7 @@
             "Spanish"
         ],
         "startBias": [
-            "Coast",
+            "lake",
             "Desert"
         ],
         "preferredVictoryType": "Domination",
@@ -37,6 +37,7 @@
             "[+2 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]",
             "[+1] Movement <for [Land] units>",
+            "[Settler] units gain the [Ignore terrain cost] promotion <hidden from users>",
             "May choose [1] additional belief(s) of any type when [founding] a religion"
         ],
         "cities": [
