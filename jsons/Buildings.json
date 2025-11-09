@@ -307,7 +307,7 @@
         "name": "Cathedral",
         "cost": 0,
         "faith": 1,
-        "culture": 3,
+        "culture": 4,
         "happiness": 1,
         "specialistSlots": {
             "Artist": 1
@@ -349,6 +349,7 @@
         "happiness": 2,
         "uniques": [
             "Unbuildable",
+            "[10]% Food is carried over after population increases [in this city]",
             "Only available <when religion is enabled>"
         ]
     },
@@ -358,7 +359,7 @@
         "happiness": 1,
         "faith": 2,
         "culture": 1,
-        "science": 1,
+        "science": 2,
         "uniques": [
             "Unbuildable",
             "Only available <when religion is enabled>"
