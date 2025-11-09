@@ -47,7 +47,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+15]% growth [in capital]",
+                    "[+20]% growth [in capital]",
 					"[+1 Production] from every specialist [in all cities]",
 					"[+2 Food] [in capital]"
                 ],
@@ -517,7 +517,7 @@
                 "uniques": [
                     "[+1 Happiness, +1 Culture] from every [Lighthouse]",
                     "[+1 Happiness, +1 Culture] from every [Harbor]",
-                    "[+1 Happiness, +1 Culture]] from every [Seaport]"
+                    "[+1 Happiness, +1 Culture] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 1
@@ -536,7 +536,7 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[2] population [in this city] <upon founding a city>",
+                    "[3] population [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>"
                 ],
                 "row": 1,
@@ -605,7 +605,7 @@
                 "uniques": [
                     "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
                     "[-33]% maintenance on road & railroads",
-                    "[+33]% [Gold] from Trade Routes"
+                    "[+50]% [Gold] from Trade Routes"
                 ],
                 "requires": ["Entrepreneurship"],
                 "row": 2,
@@ -617,7 +617,7 @@
                     "[Gold] cost of purchasing items in cities [-20]%",
                     "[+1 Happiness, +2 Gold] from every [Market]",
                     "[+1 Happiness, +3 Gold] from every [Bank]",
-                    "[+1 Happiness, +4 Gold] from every [Stock Exchange]"
+                    "[+2 Happiness, +4 Gold] from every [Stock Exchange]"
                 ],
                 "requires": ["Entrepreneurship"],
                 "row": 2,
@@ -627,7 +627,7 @@
                 "name": "Protectionism",
                 "uniques": [
                     "[+1 Food] from every [Trading post]",
-                    "[+1 Science, +1 Culture, +5 Gold] from every [Customs house]",
+                    "[+2 Science, +1 Culture, +5 Gold] from every [Customs house]",
                     "[+3 Gold, +1 Culture] from every [Luxury resource]"
                 ],
                 "requires": ["Mercantilism"],
@@ -638,7 +638,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[2] free [Great Merchant] units appear",
-                    "[+12 Gold, +6 Happiness] from every [National Treasury]",
+                    "[+18 Gold, +6 Happiness] from every [National Treasury]",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -655,7 +655,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+3 Science] [in capital]",
+            "[+5 Science] [in capital]",
 			"Comment [Unlocks [Porcelain Tower]]"
         ],
         "policies": [
@@ -670,9 +670,9 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness, +1 Gold] from every [University]",
+                    "[+1 Happiness, +1 Gold] from every [Observatory]",
+                    "[+1 Happiness, +1 Gold] from every [Public School]",
                     "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
