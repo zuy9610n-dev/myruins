@@ -8,7 +8,8 @@
         "uniques": [
             "Removes extra unhappiness from annexed cities",
             "[+1 Gold] from every [resource]",
-            "[+25]% [Gold]"
+            "[+25]% [Gold]",
+            "[10]% Food is carried over after population increases [in this city]"
         ],
         "requiredTech": "Mathematics"
     }
