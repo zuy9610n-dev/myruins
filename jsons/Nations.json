@@ -6,8 +6,8 @@
             "Spanish"
         ],
         "startBias": [
-            "lake",
-            "Desert"
+            "Desert",
+            "Coast"
         ],
         "preferredVictoryType": "Domination",
         "personality": "Isabella",
