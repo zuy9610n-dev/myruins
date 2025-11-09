@@ -34,7 +34,14 @@
 		        "Occurs in groups of [25] to [25] tiles",
 		        "Considered [Food] when determining start locations",
 		        "Considered [Desirable] when determining start locations"
-	           ]
+	           ],
+	  "civilopediaText": [
+            {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
+            {"text": "Rivers", "link":"Terrain/River"},
+            {"text": "Oasis", "link":"Terrain/Oasis"},
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Civil Service", "link":"Technology/Civil Service"},
+            {"text": "Fertilizer", "link":"Technology/Fertilizer"}]
 
   }
 	
