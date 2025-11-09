@@ -12,7 +12,7 @@
   },
   {
 		"name": "Polder",
-		"terrainsCanBeBuiltOn": ["Coast", "Lakes", "Marsh"],
+		"terrainsCanBeBuiltOn": ["Coast", "Lakes", "Oasis", "Marsh"],
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
