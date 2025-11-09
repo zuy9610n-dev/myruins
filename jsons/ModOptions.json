@@ -2,6 +2,6 @@
   "constants":
   {
     "naturalWonderCountAddedConstant": 8,
-    "ancientRuinCountMultiplier": 10.0
+    "ancientRuinCountMultiplier": 1.0
   }
 }
