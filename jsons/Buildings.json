@@ -1,0 +1,15 @@
+[
+   {
+        "name": "Encomienda",
+        "replaces": "Courthouse",
+        "uniqueTo": "Spain",
+        "gold": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Removes extra unhappiness from annexed cities",
+            "[+1 Gold] from every [resource]",
+            "[+25]% [Gold]"
+        ],
+        "requiredTech": "Mathematics"
+    }
+]
