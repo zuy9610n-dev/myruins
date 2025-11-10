@@ -20,7 +20,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+2 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -28,7 +28,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [5] cities for free",
+                    "Provides the cheapest [Culture] building in your first [6] cities for free",
                     "[+50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -60,7 +60,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+2 Gold, +2 Happiness] per [3] population [in capital]"
+                    "[+3 Gold, +2 Happiness] per [3] population [in capital]"
                 ],
                 "requires": [
                     "Legalism"
@@ -72,7 +72,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [5] cities for free"
+                    "Provides a [Aqueduct] in your first [6] cities for free"
                 ]
             }
         ]
@@ -287,7 +287,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-25]%",
-                    "[+1 Happiness] from every [Temple]",
+                    "[+2 Happiness] from every [Temple]",
 				          	"Comment [+1 [Culture] from all buildings purchased with [Faith]]",
 					          "[+1 Culture] from every [Cathedral] <hidden from users>",
 					          "[+1 Culture] from every [Mosque] <hidden from users>",
@@ -313,7 +313,7 @@
                 "uniques": [
                     "Gain a free [Pantheon] belief", "(if you founded a religion)",
 				    "May choose [1] additional [Pantheon] beliefs when [founding] a religion",
-                    "[+25]% [Science] from every [Grand Temple]",
+                    "[+33]% [Science] from every [Grand Temple]",
 					"May choose [2] additional belief(s) of any type when [founding] a religion",
                     "[+1 Science] from every [Temple]"
                 ],
@@ -373,6 +373,8 @@
                 "name": "Monumentality",
                 "uniques": [
                     "[+33]% [Culture] [in all cities with a world wonder]",
+					"[50]% of excess happiness converted to [Culture]",
+					"[70]% of excess happiness converted to [Science]",
                     "Empire enters golden age"
                 ],
                 "row": 1,
@@ -527,8 +529,8 @@
                 "uniques": [
                     "[+3 Production] [in all coastal cities]",
                     "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
-                    "[+50]% Production when constructing [Harbor] buildings [in all cities]",
-                    "[+50]% Production when constructing [Seaport] buildings [in all cities]"
+                    "[+70]% Production when constructing [Harbor] buildings [in all cities]",
+                    "[+100]% Production when constructing [Seaport] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
