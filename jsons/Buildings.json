@@ -7,9 +7,8 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Removes extra unhappiness from annexed cities",
-            "[+1 Gold] from every [resource]",
+            "[+1 Gold] from every [luxury resource]",
             "[+25]% [Gold]",
-            "[10]% Food is carried over after population increases [in this city]"
         ],
         "requiredTech": "Mathematics"
     },
