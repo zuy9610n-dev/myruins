@@ -30,7 +30,7 @@
     "unbuildable": false,
     "impassable": false,
     "weight": 10,
-    "uniques": ["Fresh Water",
+    "uniques": ["Fresh water",
 		        "Occurs in groups of [25] to [25] tiles",
 		        "Considered [Food] when determining start locations",
 		        "Considered [Desirable] when determining start locations"
@@ -50,7 +50,7 @@
 		"food": 3,
 		"gold": 1,
 		"movementCost": 1,
-		"unbuildable": true,
+		"unbuildable": false,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": ["Fresh water", "Rare feature",
