@@ -33,10 +33,11 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "[+150 Gold] for discovering a Natural Wonder (bonus enhanced to [+600 Gold] if first to discover it)",
+            "[+150 Gold] for discovering a Natural Wonder (bonus enhanced to [+650 Gold] if first to discover it)",
+            "Gain enough Faith for [25]% of a Great Prophet for discovering a Natural Wonder",
             "[+2 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]",
-            "[+1] Movement <for [Land] units>",
+            "[+2] Movement <for [Land] units>",
             "[Settler] units gain the [Ignore terrain cost] promotion <hidden from users>",
             "May choose [2] additional belief(s) of any type when [founding] a religion"
         ],
