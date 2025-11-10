@@ -142,8 +142,7 @@
 	    "uniques": [
                     "Free Social Policy",
 			        "Free Social Policy",
-			        "Gain [150]-[200] [Gold]",
-			        "Only available <before turn number [8]>"
+			        "Only available <before turn number [9]>"
                    ], 
   },
   {"name": "adopt foreign policy1",
@@ -151,8 +150,7 @@
 		"weight": 2500
         "uniques": ["Free Social Policy",
 			        "Free Social Policy",
-			        "Gain enough Faith for [25]% of a Great Prophet",
-			        "Only available <before turn number [8]>"
+			        "Only available <before turn number [9]>"
 		           ],
   },
 //Faith
