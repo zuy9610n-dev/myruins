@@ -39,6 +39,13 @@
             "[+100]% Yield from every [Natural Wonder]",
             "[+2] Movement <for [Land] units>",
             "[Settler] units gain the [Ignore terrain cost] promotion <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <upon entering a new era> <after turn number [3]> <hidden from users>",
             "May choose [2] additional belief(s) of any type when [founding] a religion"
         ],
         "cities": [
