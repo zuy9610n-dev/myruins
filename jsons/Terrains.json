@@ -22,6 +22,7 @@
 
     "name": "Lakes",
     "type": "Water",
+	        "Nautural Wonder",
     "food": 3,
     "gold": 1,
     "RGB": [0, 171,169],
