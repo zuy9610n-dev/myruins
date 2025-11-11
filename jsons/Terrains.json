@@ -292,7 +292,7 @@
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [3] to [6] [Desert] tiles",
-			"Grants [+25 Faith] to the first civilization to discover it",
+			"Grants [+25 Faith] to the first civilization to discover it <(modified by game speed)>",
 			"Tile provides yield without assigned population"],
 		"turnsInto": "Mountain",
 		"impassable": true,
