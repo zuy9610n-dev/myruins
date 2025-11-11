@@ -348,7 +348,6 @@
         "happiness": 2,
         "uniques": [
             "Unbuildable",
-            "[10]% Food is carried over after population increases [in this city]",
             "Only available <when religion is enabled>"
         ]
     },
