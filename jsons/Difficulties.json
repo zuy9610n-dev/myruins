@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Fair Start Deity",
-		"baseHappiness": 9,
+		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -30,7 +30,7 @@
 	},
 	{
 		"name": "Fair Start Deity+",
-		"baseHappiness": 9,
+		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -45,7 +45,7 @@
 		"aiCityGrowthModifier": 0.5,
 		"aiUnitCostModifier": 0.35,
 		"aiBuildingCostModifier": 0.35,
-		"aiWonderCostModifier": 1,
+		"aiWonderCostModifier": 0.9,
 		"aiBuildingMaintenanceModifier": 0.35,
 		"aiUnitMaintenanceModifier": 0.35,
 		"aiUnitSupplyModifier": 0.35,
@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Fair Start Deity++",
-		"baseHappiness": 9,
+		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -74,7 +74,7 @@
 		"aiCityGrowthModifier": 0.4,
 		"aiUnitCostModifier": 0.2,
 		"aiBuildingCostModifier": 0.2,
-		"aiWonderCostModifier": 1,
+		"aiWonderCostModifier": 0.8,
 		"aiBuildingMaintenanceModifier": 0.2,
 		"aiUnitMaintenanceModifier": 0.2,
 		"aiUnitSupplyModifier": 0.2,
