@@ -302,7 +302,7 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+25]% [Gold] from every [Temple]",
-                    "[+3 Gold, +1 food] from every [Holy site]",
+                    "[+3 Gold] from every [Holy site]",
                     "[+33]% [Gold] from every [Grand Temple]"
                 ],
                 "requires": ["Organized Religion"],
