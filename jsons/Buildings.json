@@ -7,8 +7,8 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Removes extra unhappiness from annexed cities",
-            "[+1 Gold] from every [bonuses resource]",
-            "[+25]% [Gold]",
+            "[+1 Gold] from every [resource]",
+            "[+15]% [Gold]",
         ],
         "requiredTech": "Mathematics"
     },
