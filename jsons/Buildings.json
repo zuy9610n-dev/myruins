@@ -31,6 +31,20 @@
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
     {
+  "name": "Al-Azhar University",
+  "isWonder": true,
+  "cost": 222,
+  "uniques": [
+              "[+2 Production]",
+              "[+20]% [Production] [in this city] <after discovering [Education]>",
+              "[Great Engineer] is earned [+33]% faster <starting from the [Industrial era]>",
+              "May buy [Great Engineer] units for [500] [Faith] [in this city] at an increasing price ([100]) <before the [Industrial era]>",
+              "May buy [Great Engineer] units for [1000] [Faith] [in this city] at an increasing price ([500]) <starting from the [Industrial era]>"
+             ],
+  "requiredTech": "Engineering",
+  "quote": "'We shape our buildings: thereafter they shape us.' -Winston Churchill"
+    },
+    {
         "name": "Stonehenge",
         "faith": 2,
         "isWonder": true,
