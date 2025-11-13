@@ -12,6 +12,15 @@
         ],
         "requiredTech": "Mathematics"
     },
+    {
+    "name": "MoreNavalUnitMovement",
+    "cost": 0,
+    "uniques": [
+      "Unbuildable <for [AI player]>",
+      "Can only be built [in capital]", 
+      "[+7] Movement <for [Water] units>",
+      "[+7] Movement <for [Land] units>"]
+    }
 
     //Wonder
 
