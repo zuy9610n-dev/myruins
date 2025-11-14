@@ -172,5 +172,37 @@
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
+	},
+	{
+		"name": "Deity+",
+		"baseHappiness": 15,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1.1,
+		"unitCostModifier": 1,
+		"unitSupplyBase": 6,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay": 0,
+		"playerBonusStartingUnits": [],
+		"aiCityGrowthModifier": 0.3,
+		"airesearchCostModifier": 0.9,
+		"aiUnitCostModifier": 0.2,
+		"aiBuildingCostModifier": 0.2,
+		"aiWonderCostModifier": 0.8,
+		"aiBuildingMaintenanceModifier": 0.2,
+		"aiUnitMaintenanceModifier": 0.2,
+		"aiUnitSupplyModifier": 0.3,
+		"aiFreeTechs": ["Pottery", "Animal Husbandry" ,"Mining", "The Wheel", "Trapping", "Archery"],
+		"aiMajorCivBonusStartingUnits": [
+			"Settler", "Worker", 
+		],
+		"aiCityStateBonusStartingUnits": ["Worker"],
+		"aiUnhappinessModifier": 0.4,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 30
 	}
 ]
