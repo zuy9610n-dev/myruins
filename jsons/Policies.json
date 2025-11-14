@@ -637,10 +637,6 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-20]%",
-					"[+25]% Yield from every [Land Trade Route (Food)]",
-                    "[+25]% Yield from every [Land Trade Route (Production)]",
-                    "[+25]% Yield from every [Sea Trade Route (Food)]",
-                    "[+25]% Yield from every [Sea Trade Route (Production)]",
                     "[+1 Happiness, +2 Gold] from every [Market]",
                     "[+1 Happiness, +3 Gold] from every [Bank]",
                     "[+2 Happiness, +4 Gold] from every [Stock Exchange]"
