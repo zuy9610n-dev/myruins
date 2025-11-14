@@ -1009,8 +1009,8 @@
             {
                 "name": "Volunteer Army",
                 "uniques": [
-                    "[3] free [Foreign Legion] units appear",
-                    "[3] units cost no maintenance",
+                    "[6] free [Foreign Legion] units appear",
+                    "[6] units cost no maintenance",
                     "[Gunpowder] units gain the [Morale] promotion",
                     "All newly-trained [Gunpowder] units [in all cities] receive the [Morale] promotion",
                     "Provides [1] [Level 1 Ideology]",
@@ -1047,6 +1047,7 @@
                 "name": "Economic Union",
                 "uniques": [
                     "[+25]% [Gold] [in all cities]",
+					"[+3 Gold] from each Trade Route",
                     "Provides [1] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -1089,7 +1090,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
-                    "[+50]% Golden Age length",
+                    "[+80]% Golden Age length",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1108,6 +1109,7 @@
                     "[+5 Culture] from every [Landmark]",
                     "[+5 Gold] from every [Customs house]",
                     "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]",
+					"[+100]% Yield from every [Great Improvement]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1151,7 +1153,7 @@
             {
                 "name": "Media Culture",
                 "uniques": [
-                    "[+20]% [Culture] <in cities with a [Broadcast Tower]>",
+                    "[+40]% [Culture] <in cities with a [Broadcast Tower]>",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
