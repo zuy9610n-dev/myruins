@@ -142,8 +142,8 @@
 	    "uniques": [
                     "Free Social Policy",
                     "This Unit gains [10] XP",
-			        "Gain [50]-[100] [Gold]",
-			        "Only available <before turn number [7]>"
+			        "Gain [200]-[300] [Gold]",
+			        "Only available <before turn number [5]>"
                    ], 
   },
   {"name": "adopt foreign policy1",
@@ -151,8 +151,8 @@
 		"weight": 2500
         "uniques": ["Free Social Policy",
                     "This Unit gains [10] XP",
-			        "Gain [50]-[100] [Science]",
-			        "Only available <before turn number [7]>"
+			        "Gain [200]-[300] [Science]",
+			        "Only available <before turn number [5]>"
 		           ],
   },
 //Faith
