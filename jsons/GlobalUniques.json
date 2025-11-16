@@ -1,6 +1,9 @@
 {
 
     "name": "Global uniques",
-    "uniques": ["[+1 Production] from every [Mountain] <after discovering [Chemistry]>"]
+    "uniques": [
+        "[+1 Production] from every [Mountain] <after discovering [Chemistry]>",
+        "New [Military] units start with [20] XP [in all cities]"
+    ]
 
 }
