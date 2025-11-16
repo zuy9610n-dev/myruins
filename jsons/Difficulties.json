@@ -186,7 +186,7 @@
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 0,
-		"playerBonusStartingUnits": [],
+		"playerBonusStartingUnits": ["Settler"],
 		"aiCityGrowthModifier": 0.2,
 		"airesearchCostModifier": 0.8,
 		"aiUnitCostModifier": 0.2,
@@ -197,7 +197,7 @@
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": ["Pottery", "Animal Husbandry" ,"Mining", "The Wheel", "Trapping", "Archery"],
 		"aiMajorCivBonusStartingUnits": [
-			"Settler", "Worker", 
+			"Settler", "Worker", "Worker"
 		],
 		"aiCityStateBonusStartingUnits": ["Worker"],
 		"aiUnhappinessModifier": 0.4,
