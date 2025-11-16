@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Perfect Settler",
+    "unitType": "Civilian",
+    "uniqueTo": "Spain",
+    "replaces": "Settler",
+    "movement": 2,
+    "cost": 35,
+    "uniques": [
+      "Founds a new city",
+      "Excess Food converted to Production when under construction",
+      "Cost increases by [20] when built",
+      "Requires at least [2] population",
+      "[+3] Sight <before the [Classical era]>",
+      "[+3] Movement <before the [Classical era]>",
+      "Can see over obstacles <before the [Classical era]>"
+    ],
+    "hurryCostModifier": 20,
+  },
+]
