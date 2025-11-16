@@ -142,7 +142,7 @@
 	    "uniques": [
                     "Free Social Policy",
                     "This Unit gains [10] XP",
-			        "Gain [200]-[300] [Gold]",
+			        "Gain [150]-[300] [Gold]",
 			        "Only available <before turn number [5]>"
                    ], 
   },
@@ -151,7 +151,7 @@
 		"weight": 2500
         "uniques": ["Free Social Policy",
                     "This Unit gains [10] XP",
-			        "Gain [200]-[300] [Science]",
+			        "Gain [150]-[300] [Science]",
 			        "Only available <before turn number [5]>"
 		           ],
   },
