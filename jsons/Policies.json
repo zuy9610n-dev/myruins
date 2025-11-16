@@ -368,8 +368,8 @@
                 "uniques": [
 			"[+100]% Production when constructing [Monument] buildings [in all cities]",
 			"[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
-			"[+80]% Production when constructing [Opera House] buildings [in all cities]",
-			"[+90]% Production when constructing [Museum] buildings [in all cities]",
+			"[+100]% Production when constructing [Opera House] buildings [in all cities]",
+			"[+100]% Production when constructing [Museum] buildings [in all cities]",
 			"[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
 			"[-20]% Culture cost of adopting new Policies"
                 ],
@@ -379,9 +379,9 @@
             {
                 "name": "Monumentality",
                 "uniques": [
-                    "[+50]% [Culture] [in all cities]",
-					"[50]% of excess happiness converted to [Culture]",
-					"[100]% of excess happiness converted to [Science]",
+                    "[+34]% [Culture] [in all cities with a world wonder]",
+					"[30]% of excess happiness converted to [Culture]",
+					"[50]% of excess happiness converted to [Science]",
                     "Empire enters golden age"
                 ],
                 "row": 1,
@@ -392,7 +392,7 @@
                 "uniques": [
 					"[+66]% [Culture] [in all cities with a world wonder]",	
                     "When declaring friendship, both parties gain a [20]% boost to great person generation",
-					"[+1 Culture] from every [Great Improvement]",
+					"[+3 Culture] from every [Great Improvement]",
                 ],
                 "requires": ["Cultural Centers"],
                 "row": 2,
