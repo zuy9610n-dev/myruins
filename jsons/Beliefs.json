@@ -403,7 +403,7 @@
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [3] global followers [in foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [4] global followers [in foreign cities]"]
     },
     {
         "name": "Pilgrimage",
