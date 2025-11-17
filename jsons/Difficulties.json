@@ -177,7 +177,7 @@
 		"name": "Deity+",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
-		"researchCostModifier": 1.1,
+		"researchCostModifier": 1.2,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 6,
 		"unitSupplyPerCity": 2,
