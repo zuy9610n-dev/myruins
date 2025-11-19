@@ -18,8 +18,8 @@
     "uniques": [
       "Unbuildable <for [AI player]>",
       "Can only be built [in capital]", 
-      "[+7] Movement <for [Water] units>",
-      "[+7] Movement <for [Land] units>"]
+      "[+7] Movement <for [Setter] units>",
+      "[+7] Movement <for [Worker] units>"]
     }
 
     //Wonder
