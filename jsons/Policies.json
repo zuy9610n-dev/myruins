@@ -127,7 +127,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [70]% less than normal",
+                    "Each city founded increases culture cost of policies [50]% less than normal",
                     "[-33]% unhappiness from the number of cities"                    
                 ],
                 "requires": [
@@ -211,7 +211,7 @@
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
 					"[+50]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[+2 Production, +2 Gold, +1 Food, +1 Happiness] from every [Courthouse]"
+                    "[+1 Production, +1 Gold, +1 Food, +1 Happiness] from every [Courthouse]"
                 ],
                 "requires": [
                     "Warrior Code"
@@ -392,7 +392,7 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-					"[+66]% [Culture] [in all cities with a world wonder]",	
+					"[+36]% [Culture] [in all cities with a world wonder]",	
                     "When declaring friendship, both parties gain a [20]% boost to great person generation",
 					"[+3 Culture] from every [Great Improvement]",
                 ],
@@ -415,7 +415,7 @@
                 "name": "Artistic Genius",
                 "uniques": [
                     "Free [Great Artist] appears",
-					"[+20]% [Culture] from every [Museum]","[+25]% [Culture] from every [Opera House]","[+30]% [Culture] from every [Broadcast Tower]",
+					"[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+25]% [Culture] from every [Broadcast Tower]",
 					"[+1 Science] from every [Museum]",
                     "[+1 Science] from every [Amphitheater]",
                     "[+1 Science] from every [Opera House]",
@@ -430,7 +430,7 @@
                 "name": "Aesthetics Complete",
                 "uniques": [
 		            "[+70]% Golden Age length",	
-		            "[+3 Production, +3 Food] [in all cities with a world wonder]",	
+		            "[+2 Production, +2 Food] [in all cities with a world wonder]",	
 					"[+100]% Production when constructing [Archaeologist] units [in all cities]",
 					"Free Social Policy",
 					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -596,7 +596,7 @@
     {
         "name": "Commerce",
         "uniques": [
-            "[+3 Gold] [in all cities]",
+            "[+2 Gold] [in all cities]",
             "Comment [Unlocks [Big Ben]]"
         ],
         "era": "Medieval era",
@@ -643,7 +643,7 @@
                     "[Gold] cost of purchasing items in cities [-20]%",
                     "[+1 Happiness, +2 Gold] from every [Market]",
                     "[+1 Happiness, +3 Gold] from every [Bank]",
-                    "[+2 Happiness, +4 Gold] from every [Stock Exchange]"
+                    "[+1 Happiness, +4 Gold] from every [Stock Exchange]"
                 ],
                 "requires": ["Entrepreneurship"],
                 "row": 2,
@@ -653,8 +653,8 @@
                 "name": "Protectionism",
                 "uniques": [
                     "[+1 Food] from every [Trading post]",
-                    "[+2 Science, +1 Culture, +5 Gold] from every [Customs house]",
-                    "[+3 Gold, +1 Culture] from every [Luxury resource]"
+                    "[+1 Science, +1 Culture, +5 Gold] from every [Customs house]",
+                    "[+2 Gold, +1 Culture] from every [Luxury resource]"
                 ],
                 "requires": ["Mercantilism"],
                 "row": 3,
@@ -665,7 +665,7 @@
                 "uniques": [
                     "[2] free [Great Merchant] units appear",
 					"[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",
-                    "[+18 Gold, +6 Happiness] from every [National Treasury]",
+                    "[+18 Gold, +4 Happiness] from every [National Treasury]",
                     "[+1 Food] from every [Caer]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
