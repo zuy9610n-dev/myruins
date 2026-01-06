@@ -329,7 +329,7 @@
                 "uniques": [
 		                "[-10]% Culture cost of adopting new Policies",
 					    "[-15]% Culture cost of natural border growth [in all cities]",
-                    "May choose [2] additional [Enhancer] beliefs when [founding] a religion",
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
                     "Gain a free [Enhancer] belief <after founding a religion>"
                 ],
                 "requires": ["Free Religion"],
